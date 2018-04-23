@@ -18,6 +18,12 @@ window.addEventListener("load", function() {
         let code = pre.getElementsByTagName("code")[0];
         //code.classList.add(code.dataset.language || "bash");
         hljs.highlightBlock(code);
+
+
+      }
+
+      if (target.onload) {
+        target.onload();
       }
 
     });

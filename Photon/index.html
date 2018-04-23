@@ -160,9 +160,20 @@
         </button>
       </div>
       <h2>Getting Started.</h2>
-      <div class="markdown" data-markdown="https://rawgit.com/MauriceConrad/Photon/master/README.md" data-markdown-start="## Install">
+      <div class="markdown" data-markdown="https://rawgit.com/MauriceConrad/Photon/master/README.md" data-markdown-start="## Install" onload="replaceUrls(this)">
         Hallo Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
+      <script type="text/javascript">
+        // Replace dist/MODULE_NAME url to docs.html#MODULE_NAME
+        function replaceUrls(e) {
+          for (let link of e.getElementsByTagName("a")) {
+            const linkMatch = link.href.match(/dist\/(.*)/);
+            if (linkMatch) {
+              link.href = "docs.html#" + linkMatch[1];
+            }
+          }
+        }
+      </script>
     </main>
   </body>
 </html>
