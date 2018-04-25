@@ -169,7 +169,7 @@
           for (let link of e.getElementsByTagName("a")) {
             const linkMatch = link.href.match(/dist\/(.*)/);
             if (linkMatch) {
-              link.href = "docs.html#" + linkMatch[1];
+              link.href = "docs/#" + linkMatch[1];
             }
           }
         }
