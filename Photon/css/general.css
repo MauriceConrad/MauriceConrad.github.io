@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+header {
+  padding: 0 0px 50px;
+  text-align: center;
+  background-image: url('../images/Sierra 2 small.jpg');
+  background-size: cover;
+  color: #fff;
+}
+main {
+  margin: auto;
+}
+.btn-group {
+  margin: 0 0 0;
+  display: inline-block;
+}
+button {
+  vertical-align: middle;
+  font-size: 1em;
+  border: 1px solid #e93725;
+  background-color: #e93725;
+  padding: 3px 10px 0 5px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button .icon {
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+button:hover {
+  background-color: #db3322;
+  border-color: #c12919;
+}
+.title {
+  padding: 50px 0 0;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+.title p {
+  font-size: 1.3em;
+}
+.title h1 {
+
+
+}
+h1 {
+  margin: 0;
+  font-weight: 200;
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+nav {
+  font-size: 1.1em;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  -webkit-backdrop-filter: blur(50px);
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+nav .logo {
+  display: inline-block;
+  flex: 1;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  letter-spacing:  0.3px;
+}
+.navigation li {
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+.navigation li .icon, .navigation li span {
+  vertical-align: middle;
+}
+.navigation li .icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 2.2em;
+}
+
+.markdown {
+
+}

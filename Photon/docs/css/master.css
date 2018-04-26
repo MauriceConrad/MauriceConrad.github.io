@@ -1,0 +1,52 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+main {
+  display: flex;
+  padding: 0 0;
+}
+
+main .sidebar {
+  max-width: 300px;
+  flex: none;
+  border-right: 1px solid #e7e7e7;
+  padding: 0 15px;
+  background-color: #f5f5f5;
+}
+main .content {
+  flex: 1;
+  padding: 0 15px;
+}
+.sidebar h2 {
+  margin: 10px 0;
+  font-size: 1.7em ;
+}
+.topic-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 0.3px;
+}
+.topic-list li {
+  padding: 0;
+  margin: 0;
+  margin: 5px 0;
+  color: #222;
+  cursor: pointer;
+}
+.topic-list li.active {
+  color: #3d62e3;
+}
+.topic-list li:hover {
+  text-decoration: underline;
+}
+main .content .markdown {
+  max-width: 1200px;
+  margin: auto;
+}
+main .content .spinner {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  top: calc(50% - 35px);
+}
