@@ -1,4 +1,6 @@
 {
+  "PhotonWindow": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonWindow/README.md",
+  "PhotonWindowContent": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonWindowContent/README.md",
   "PhotonPanes": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonPanes/README.md",
   "PhotonNavigation": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonNavigation/README.md",
   "PhotonToolbar": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonToolbar/README.md",
@@ -14,5 +16,5 @@
   "PhotonNumberInput": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonNumberInput/README.md",
   "PhotonPhotonSlider": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonPhotonSlider/README.md",
   "PhotonDialog": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonDialog/README.md",
-  "Drop Down Menu": "https://rawgit.com/MauriceConrad/Photon/master/dist/Drop Down Menu/README.md"
+  "PhotonMenu": "https://rawgit.com/MauriceConrad/Photon/master/dist/PhotonMenu/README.md"
 }

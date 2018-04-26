@@ -27,6 +27,10 @@ window.addEventListener("load", async function() {
   const data = await apiData;
   const hash = location.hash.substring(1);
 
+  if (!hash) {
+    location.hash = Object.keys(data)[0];
+  }
+
   app = new Vue({
     el: 'main',
     data: {
