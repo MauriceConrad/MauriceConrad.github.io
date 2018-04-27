@@ -18,16 +18,16 @@ window.addEventListener("load", function() {
     }
     document.querySelector(viewSelector).style.removeProperty("display");
   });
-  document.getElementsByClassName("btn-show-popup")[0].addEventListener("click", function() {
+  /*document.getElementsByClassName("btn-show-popup")[0].addEventListener("click", function() {
     Photon.Dialog("#dialog1", {
       width: 600,
       height: 400,
       minHeight: 150,
       minWidth: 200
     });
-  });
+  });*/
 
-  document.getElementsByClassName("btn-show-menu")[0].addEventListener("mousedown", function() {
+  /*document.getElementsByClassName("btn-show-menu")[0].addEventListener("mousedown", function() {
     Photon.DropDown(this, [
       {
         label: "Item 1",
@@ -49,7 +49,7 @@ window.addEventListener("load", function() {
         ]
       }
     ]);
-  });
+  });*/
 
   //document.getElementsByClassName("progress-circle")[0].updateCircleProgress(62.5);
 
